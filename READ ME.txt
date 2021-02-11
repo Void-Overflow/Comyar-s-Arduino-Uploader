@@ -1,4 +1,6 @@
-    Weclome to Comyar's Arduino Uploader! In this application, you can upload and compile code to your Arduino, view the Serial Monitor, and do this all from one app. 
+NOTE:// FOR MORE INFORMATION ABOUT THIS SOFTWARE, GO TO comyaruploader.netlify.app
+
+Weclome to Comyar's Arduino Uploader! In this application, you can upload and compile code to your Arduino, view the Serial Monitor, and do this all from one app. 
   This application was originally intended to update the clock for the Comyar's Bike Tool, but it can also be used generally.
   
   In order to use this application, you must have the .net framework installed on your computer. To install, and for more information abou .net, please visit 
