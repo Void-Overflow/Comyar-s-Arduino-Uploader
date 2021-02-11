@@ -1,12 +1,15 @@
     Weclome to Comyar's Arduino Uploader! In this application, you can upload and compile code to your Arduino, view the Serial Monitor, and do this all from one app. 
   This application was originally intended to update the clock for the Comyar's Bike Tool, but it can also be used generally.
   
-  In order to use this application, you must have the .net framework installed on your computer. To install, and for more information abou .tnet, please visit 
+  In order to use this application, you must have the .net framework installed on your computer. To install, and for more information abou .net, please visit 
   https://dotnet.microsoft.com/download.
   
     In order to set this up, there are a couple installation methods you must use. Firstly, unzip the file. Secondly, navigate to this path within the unzipped folder -
 avr-g++/arduino-cli/bin . Once in that directory, there should be a file called arduino-cli.rar. Unzip that using any unzipping software. I recommend to use WinRar,
 which can be downloaded @https://www.win-rar.com/start.html?&L=0.
 
-//TODO:// UPDATE AND FINISH THIS, PLUS COPY THIS ENTIRE TEXT INTO HTML
-  To use this application to update the clock of the Bike tool,
+  To use this application to update the clock of the Bike tool, click the update button bellow the COM port list, and then select the corresponding COM port. After that, check all settings to make sure it's all correct, then click upload to upload the code. You may see a stiff screen with no changes for 2-4 seconds, but after it should start uploading.
+   
+  To use this application to upload your own software to your Arduino, first copy your ino file ,with the corresponding libraries inside of a folder called "Libraries", into the folder called paths. Afterwards, go into the software, and update the filepath. The filepath is relative to the folder your current .exe file is in. Afterwards, update your board along with your serial port, and then start uploading the same as you have done before.
+  
+  To use the Serial Monitor to debug your own software, first do all the steps mentioned in the paragraph above this to set up your file, then select the baud rate that is used by your code. Afterwards, hit connet.Make sure to disconnect before uploading your code as this can corrupt your current session making you have to restart. The same applies to if you want to connect after being already connected.
